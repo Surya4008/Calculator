@@ -1,0 +1,42 @@
+#boarder {
+    border: 1px solid rgb(107, 103, 103);
+    border-radius: 5px;
+    width: 330px;
+    background: linear-gradient(20deg,rgb(50, 35, 37),rgb(92, 165, 220) ,rgb(47, 36, 170),rgb(147, 31, 131));
+    margin: 3% 0% 3% 40%;
+        
+    
+}
+.display{
+    margin: 10px;
+    width: 90%;
+    height: 50px;
+    border-radius: 8px;
+    font-size: large;
+}
+.button-container{
+    margin: 10px;
+    display: flex;
+    justify-self: center;
+    flex-wrap: wrap;
+    
+}
+
+.button{
+    width: 88px;
+    height: 88px;
+    margin: 3px;
+    background-color: rgb(195, 200, 200);
+    font-size: 30px;
+    border-radius: 100px;
+    
+
+}
+button:hover{
+    width: 89px;
+    height: 88px;
+    background-color: rgb(129, 242, 17);
+}
+body{
+    background-color: antiquewhite;
+}
